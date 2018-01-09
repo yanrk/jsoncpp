@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc\json">
+      <UniqueIdentifier>{5d2e3422-fb05-4255-bd3e-a4e4e534455e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\json_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json_value.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json_writer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\json\allocator.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\assertions.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\autolink.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\config.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\features.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\forwards.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\json.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\reader.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\tool.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\value.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\version.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\json\writer.h">
+      <Filter>inc\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
